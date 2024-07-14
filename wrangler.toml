@@ -13,6 +13,9 @@ custom_domain = true
 [[routes]]
 pattern = "quiz.vidio.com.sg1.heryanavip.xyz"
 custom_domain = true
+[[routes]]
+pattern = "pdp-ioh.ioh.co.id.sg1.heryanavip.xyz"
+custom_domain = true
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
