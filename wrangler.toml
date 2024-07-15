@@ -1,25 +1,24 @@
 
-name = "addonamz-xcl" # todo
+name = "addonid2-xcl" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-[[routes]]
-pattern = "adamz.yubisanz.my.id"
+pattern = "id2.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "investor.fb.com.adamz.yubisanz.my.id"
+pattern = "web.whatsapp.com.id2.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "web.whatsapp.com.adamz.yubisanz.my.id"
+pattern = "graph.instagram.com.id2.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "app.gopay.co.id.adamz.yubisanz.my.id"
+pattern = "app.gopay.co.id.id2.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "graph.instagram.com.adamz.yubisanz.my.id"
+pattern = "graph.facebook.com.id2.yubisanz.my.id"
 custom_domain = true
 
 [vars]
