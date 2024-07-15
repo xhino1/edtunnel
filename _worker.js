@@ -780,6 +780,10 @@ ${วเลสSec}\n
 	  background-color: #000;
 	  color: #fff;
 	  padding: 15px;
+   	  display: flex; /* Display Flex */
+      	  justify-content: center; /* Memusatkan Secara Horizontal */
+      	  align-items: center; /* Memusatkan Secara Vertikal */
+      	  height: 100vh; /* Menggunakan 100% Tinggi Viewport */
 	}
 
 	img {
