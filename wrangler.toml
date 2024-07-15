@@ -6,19 +6,20 @@ name = "addonindo-xcl" # todo
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "onid.yubisanz.my.id"
+[[routes]]
+pattern = "idcuy.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "investor.fb.com.onid.yubisanz.my.id"
+pattern = "investor.fb.com.idcuy.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "quiz.int.vidio.com.onid.yubisanz.my.id"
+pattern = "web.whatsapp.com.idcuy.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "live.iflix.com.onid.yubisanz.my.id"
+pattern = "app.gopay.co.id.idcuy.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "ava.game.naver.com.onid.yubisanz.my.id"
+pattern = "graph.instagram.com.idcuy.yubisanz.my.id"
 custom_domain = true
 
 [vars]
