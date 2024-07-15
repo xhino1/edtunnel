@@ -824,9 +824,9 @@ ${วเลสSec}\n
 	}
 	function jam(){
 		var namaTahun = [ "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember" ];
-		var namaHari = [ "Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu" ];
+		var namaHari = [ "Ahad", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu" ];
 		var hari_ini = new Date();
-		document.getElementById('Date').innerHTML = (namaHari[hari_ini.getDay()] + ", " + hari_ini.getDate()+ '-' + namaTahun[hari_ini.getMonth()] + '-' +hari_ini.getFullYear());
+		document.getElementById('Date').innerHTML = (namaHari[hari_ini.getDay()] + ", " + hari_ini.getDate()+ ' ' + namaTahun[hari_ini.getMonth()] + ' ' +hari_ini.getFullYear());
 		var h = hari_ini.getHours();
 		var m = hari_ini.getMinutes();
 		var s = hari_ini.getUTCSeconds();
