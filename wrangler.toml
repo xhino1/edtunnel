@@ -4,19 +4,19 @@ name = "indo" # todo
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
-[[routers]]
+[[routes]]
 pattern = "indo.suryalawari.my.id"
 custom_domain = true
-[[routers]]
+[[routes]]
 pattern = "ava.game.naver.com.indo.suryalawari.my.id"
 custom_domain = true
-[[routers]]
+[[routes]]
 pattern = "df.game.naver.com.indo.suryalawari.my.id"
 custom_domain = true
-[[routers]]
+[[routes]]
 pattern = "df.game.naver.com.indo.suryalawari.my.id"
 custom_domain = true
-[[routers]]
+[[routes]]
 pattern = "care.pmang.game.naver.com.indo.suryalawari.my.id"
 custom_domain = true
 
