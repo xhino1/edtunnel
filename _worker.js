@@ -779,30 +779,22 @@ ${วเลสSec}\n
 	  font-family: Arial, sans-serif;
 	  background-color: #000;
 	  color: #fff;
-	  padding: 15px;
+	  padding: 15px 20px;
 	}
 
 	img {
 	  max-width: 100%;
 	  height: auto;
 	}
-	
-       .container {
-          display: flex;
-          justify-content: center; /* Memusatkan secara horizontal */
-          align-items: center; /* Memusatkan secara vertikal */
-          height: 100vh; /* Menggunakan 100% tinggi viewport */
-        }
-	
+
 	pre {
 	  white-space: pre-wrap;
 	  word-wrap: break-word;
 	  border: 2px solid green;
-   	  border-radius: 20px;
+	  border-radius: 20px;
 	  color: #000;
 	  padding: 6px;
 	  margin: 3px 0;
-   	  max-width: 800px;
 	}
 	</style>
 
@@ -818,10 +810,8 @@ ${วเลสSec}\n
   ${htmlHead}
   <body class="bg-dark">
     <div style='background-color: transparent; border: none;'>${header}</div>
-    <div class="container">
-      <pre class="text-center text-light">${output1}</pre>
-      <pre class="text-center text-light">${output2}</pre>
-    </div>
+    <pre class="text-center text-light">${output1}</pre>
+    <pre class="text-center text-light">${output2}</pre>
   </body>
   <script>
 	function copyToClipboard(text) {
@@ -835,9 +825,9 @@ ${วเลสSec}\n
 	}
 	function jam(){
 		var namaTahun = [ "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember" ];
-		var namaHari = [ "Ahad", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu" ];
+		var namaHari = [ "Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu" ];
 		var hari_ini = new Date();
-		document.getElementById('Date').innerHTML = (namaHari[hari_ini.getDay()] + ", " + hari_ini.getDate()+ ' ' + namaTahun[hari_ini.getMonth()] + ' ' +hari_ini.getFullYear());
+		document.getElementById('Date').innerHTML = (namaHari[hari_ini.getDay()] + ", " + hari_ini.getDate()+ '-' + namaTahun[hari_ini.getMonth()] + '-' +hari_ini.getFullYear());
 		var h = hari_ini.getHours();
 		var m = hari_ini.getMinutes();
 		var s = hari_ini.getUTCSeconds();
