@@ -791,9 +791,11 @@ ${วเลสSec}\n
 	  white-space: pre-wrap;
 	  word-wrap: break-word;
 	  border: 2px solid green;
+   	  border-radius: 20px;
 	  color: #000;
 	  padding: 6px;
 	  margin: 3px 0;
+   	  max-width: 800px;
 	}
 	</style>
 
