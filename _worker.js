@@ -780,17 +780,20 @@ ${วเลสSec}\n
 	  background-color: #000;
 	  color: #fff;
 	  padding: 15px;
-   	  display: flex; /* Display Flex */
-      	  justify-content: center; /* Memusatkan Secara Horizontal */
-      	  align-items: center; /* Memusatkan Secara Vertikal */
-      	  height: 100vh; /* Menggunakan 100% Tinggi Viewport */
 	}
 
 	img {
 	  max-width: 100%;
 	  height: auto;
 	}
-
+	
+       .container {
+          display: flex;
+          justify-content: center; /* Memusatkan secara horizontal */
+          align-items: center; /* Memusatkan secara vertikal */
+          height: 100vh; /* Menggunakan 100% tinggi viewport */
+        }
+	
 	pre {
 	  white-space: pre-wrap;
 	  word-wrap: break-word;
@@ -814,9 +817,11 @@ ${วเลสSec}\n
   <html>
   ${htmlHead}
   <body class="bg-dark">
-  <div style='background-color: transparent; border: none;'>${header}</div>
-  <pre class="text-center text-light">${output1}</pre>
-  <pre class="text-center text-light">${output2}</pre>
+    <div style='background-color: transparent; border: none;'>${header}</div>
+    <div class="container">
+      <pre class="text-center text-light">${output1}</pre>
+      <pre class="text-center text-light">${output2}</pre>
+    </div>
   </body>
   <script>
 	function copyToClipboard(text) {
