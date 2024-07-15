@@ -1,4 +1,4 @@
-name = "indo" # todo
+name = "jpn" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
@@ -8,16 +8,16 @@ compatibility_date = "2023-05-26"
 pattern = "indo.suryalawari.my.id"
 custom_domain = true
 [[routes]]
-pattern = "ava.game.naver.com.indo.suryalawari.my.id"
+pattern = "ava.game.naver.com.jpn.suryalawari.my.id"
 custom_domain = true
 [[routes]]
-pattern = "df.game.naver.com.indo.suryalawari.my.id"
+pattern = "df.game.naver.com.jpn.suryalawari.my.id"
 custom_domain = true
 [[routes]]
-pattern = "df.game.naver.com.indo.suryalawari.my.id"
+pattern = "df.game.naver.com.jpn.suryalawari.my.id"
 custom_domain = true
 [[routes]]
-pattern = "care.pmang.game.naver.com.indo.suryalawari.my.id"
+pattern = "care.pmang.game.naver.com.jpn.suryalawari.my.id"
 custom_domain = true
 
 
