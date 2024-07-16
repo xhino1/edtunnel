@@ -1,25 +1,26 @@
 
-name = "addoncdnaws-xcl" # todo
+name = "addoncdnid-xcl" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "addaws.yubisanz.my.id"
+pattern = "id3.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "updates.netflix.com.addaws.yubisanz.my.id"
+pattern = "updates.netflix.com.id3.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "quiz.int.vidio.com.addaws.yubisanz.my.id"
+pattern = "quiz.int.vidio.com.id3.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "app.gopay.co.id.addaws.yubisanz.my.id"
+pattern = "app.gopay.co.id.id3.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "app.genflix.co.id.addaws.yubisanz.my.id"
+pattern = "app.genflix.co.id.id3.yubisanz.my.id"
 custom_domain = true
+
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
