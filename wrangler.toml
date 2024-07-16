@@ -1,24 +1,24 @@
 
-name = "ovh-xcl" # todo
+name = "addonaws-xcl" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "ovh.yubisanz.my.id"
+pattern = "sgaws.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "df.game.naver.com.ovh.yubisanz.my.id"
+pattern = "web.whatsapp.com.sgaws.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "care.pmang.game.naver.com.ovh.yubisanz.my.id"
+pattern = "graph.instagram.com.sgaws.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "slugger.hangame.com.ovh.yubisanz.my.id"
+pattern = "access.wetv.vip.sgaws.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "ava.game.naver.com.ovh.yubisanz.my.id"
+pattern = "live.iflix.com.sgaws.yubisanz.my.id"
 custom_domain = true
 
 [vars]
