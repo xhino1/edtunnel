@@ -1,24 +1,24 @@
 
-name = "jp-oracle-xcl" # todo
+name = "jp-google-xcl" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "jpo.yubisanz.my.id"
+pattern = "jpg.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "df.game.naver.com.jpo.yubisanz.my.id"
+pattern = "df.game.naver.com.jpg.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "care.pmang.game.naver.com.jpo.yubisanz.my.id"
+pattern = "care.pmang.game.naver.com.jpg.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "slugger.hangame.com.jpo.yubisanz.my.id"
+pattern = "slugger.hangame.com.jpg.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "ava.game.naver.com.jpo.yubisanz.my.id"
+pattern = "ava.game.naver.com.jpg.yubisanz.my.id"
 custom_domain = true
 
 [vars]
