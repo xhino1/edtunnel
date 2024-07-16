@@ -1,26 +1,25 @@
 
-name = "addoncdnid-xcl" # todo
+name = "jp-oracle-xcl" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "id3.yubisanz.my.id"
+pattern = "jpo.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "updates.netflix.com.id3.yubisanz.my.id"
+pattern = "df.game.naver.com.jpo.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "quiz.int.vidio.com.id3.yubisanz.my.id"
+pattern = "care.pmang.game.naver.com.jpo.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "app.gopay.co.id.id3.yubisanz.my.id"
+pattern = "slugger.hangame.com.jpo.yubisanz.my.id"
 custom_domain = true
 [[routes]]
-pattern = "app.genflix.co.id.id3.yubisanz.my.id"
+pattern = "ava.game.naver.com.jpo.yubisanz.my.id"
 custom_domain = true
-
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
