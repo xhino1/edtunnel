@@ -22,6 +22,18 @@ custom_domain = true
 [[routes]]
 pattern = "app.gopay.co.id.sg3.daneshswara.cloud"
 custom_domain = true
+[[routes]]
+pattern = "zoomcares.zoom.us.sg3.daneshswara.cloud"
+custom_domain = true
+[[routes]]
+pattern = "devsupport.zoom.us.sg3.daneshswara.cloud"
+custom_domain = true
+[[routes]]
+pattern = "bimbel.ruangguru.com.sg3.daneshswara.cloud"
+custom_domain = true
+[[routes]]
+pattern = "edu.udemy.com.sg3.daneshswara.cloud"
+custom_domain = true
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
