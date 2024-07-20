@@ -1,4 +1,4 @@
-name = "A6" # todo
+name = "a6" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
@@ -8,10 +8,10 @@ compatibility_date = "2025-05-25"
 pattern = "davidbatarap.my.id"
 custom_domain = true
 [[routes]]
-pattern = "104.18.24.139.A6.davidbatarap.my.id"
+pattern = "104.18.24.139.a6.davidbatarap.my.id"
 custom_domain = true
 [[routes]]
-pattern = "104.26.7.171.A6.davidbatarap.my.id"
+pattern = "104.26.7.171.a6.davidbatarap.my.id"
 custom_domain = true
 
 [vars]
