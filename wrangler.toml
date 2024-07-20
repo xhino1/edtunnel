@@ -8,6 +8,15 @@ compatibility_date = "2023-05-26"
 pattern = "indo.aghill.my.id"
 custom_domain = true
 [[routes]]
+pattern = "m.instagram.com.aghill.my.id"
+custom_domain = true
+[[routes]]
+pattern = "hwvip.iflix.com.aghill.my.id"
+custom_domain = true
+[[routes]]
+pattern = "z-p15.www.instagram.com.aghill.my.id"
+custom_domain = true
+[[routes]]
 pattern = "shopee.co.id.indo.aghill.my.id"
 custom_domain = true
 [[routes]]
