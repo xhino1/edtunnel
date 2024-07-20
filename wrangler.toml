@@ -5,7 +5,19 @@ name = "indo" # todo
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "indo.aghill.my.id"
+pattern = "zaintest.vuclip.com.aghill.my.id"
+custom_domain = true
+[[routes]]
+pattern = "blog.webex.com.aghill.my.id"
+custom_domain = true
+[[routes]]
+pattern = "investors.spotify.com.aghill.my.id"
+custom_domain = true
+[[routes]]
+pattern = "mssdk24-normal-useast2a.tiktokv.com.aghill.my.id"
+custom_domain = true
+[[routes]]
+pattern = "autodiscover.instagram.com.aghill.my.id"
 custom_domain = true
 [[routes]]
 pattern = "m.instagram.com.aghill.my.id"
