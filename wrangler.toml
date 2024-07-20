@@ -1,23 +1,23 @@
-name = "malaysia" # todo
+name = "kr" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "malaysia.suryalawari.my.id"
+pattern = "kr.suryalawari.my.id"
 custom_domain = true
 [[routes]]
-pattern = "ava.game.naver.com.malaysia.suryalawari.my.id"
+pattern = "ava.game.naver.com.kr.suryalawari.my.id"
 custom_domain = true
 [[routes]]
-pattern = "df.game.naver.com.malaysia.suryalawari.my.id"
+pattern = "df.game.naver.com.kr.suryalawari.my.id"
 custom_domain = true
 [[routes]]
-pattern = "df.game.naver.com.malaysia.suryalawari.my.id"
+pattern = "df.game.naver.com.kr.suryalawari.my.id"
 custom_domain = true
 [[routes]]
-pattern = "care.pmang.game.naver.com.malaysia.suryalawari.my.id"
+pattern = "care.pmang.game.naver.com.kr.suryalawari.my.id"
 custom_domain = true
 
 
