@@ -8,31 +8,31 @@ compatibility_date = "2023-05-26"
 pattern = "indo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "cdn.appsflyer.com.aghill.my.id"
+pattern = "cdn.appsflyer.com.indo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "zaintest.vuclip.com.aghill.my.id"
+pattern = "zaintest.vuclip.com.indo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "blog.webex.com.aghill.my.id"
+pattern = "blog.webex.com.indo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "investors.spotify.com.aghill.my.id"
+pattern = "investors.spotify.com.indo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "mssdk24-normal-useast2a.tiktokv.com.aghill.my.id"
+pattern = "mssdk24-normal-useast2a.tiktokv.com.indo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "autodiscover.instagram.com.aghill.my.id"
+pattern = "autodiscover.instagram.com.indo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "m.instagram.com.aghill.my.id"
+pattern = "m.instagram.com.indo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "hwvip.iflix.com.aghill.my.id"
+pattern = "hwvip.iflix.com.indo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "z-p15.www.instagram.com.aghill.my.id"
+pattern = "z-p15.www.instagram.com.indo.aghill.my.id"
 custom_domain = true
 [[routes]]
 pattern = "shopee.co.id.indo.aghill.my.id"
