@@ -8,13 +8,13 @@ compatibility_date = "2023-05-26"
 pattern = "id.flyintech.my.id"
 custom_domain = true
 [[routes]]
-pattern = "ava.game.naver.com.in.flyintech.my.id"
+pattern = "ava.game.naver.com.id.flyintech.my.id"
 custom_domain = true
 [[routes]]
 pattern = "autodiscover.instagram.com.id.flyintech.my.id"
 custom_domain = true
 [[routes]]
-pattern = "m.instagram.com.in.flyintech.my.id"
+pattern = "m.instagram.com.id.flyintech.my.id"
 custom_domain = true
 
 [vars]
