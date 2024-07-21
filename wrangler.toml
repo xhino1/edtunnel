@@ -16,6 +16,10 @@ custom_domain = true
 [[routes]]
 pattern = "restolille.fr.de1.hackercloud.xyz"
 custom_domain = true
+[[routes]]
+pattern = "petitmot.ca"
+custom_domain = true
+
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
