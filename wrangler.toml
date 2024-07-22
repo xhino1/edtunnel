@@ -1,4 +1,4 @@
-name = "server1" # todo
+name = "server2" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
@@ -12,4 +12,4 @@ compatibility_date = "2023-05-26"
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
 # API_HOST = "api.v2board.com"
-UUID = "ebf33685-0cc1-4552-9163-dc076112b3d6"
+UUID = "578ae28c-30ff-472e-aece-dec651165c24"
