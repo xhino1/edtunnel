@@ -8,6 +8,15 @@ compatibility_date = "2023-05-26"
 pattern = "sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
+pattern = "www.facebook.com.sgdo.aghill.my.id"
+custom_domain = true
+[[routes]]
+pattern = "gogan.gojek.com.sgdo.aghill.my.id"
+custom_domain = true
+[[routes]]
+pattern = "m.youtube.com.sgdo.aghill.my.id"
+custom_domain = true
+[[routes]]
 pattern = "cdn.appsflyer.com.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
