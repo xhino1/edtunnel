@@ -1,4 +1,4 @@
-name = "sg" # todo
+name = "sgdo" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
@@ -8,40 +8,40 @@ compatibility_date = "2023-05-26"
 pattern = "sg.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "cdn.appsflyer.com.sg.aghill.my.id"
+pattern = "cdn.appsflyer.com.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "api.joox.com.sg.aghill.my.id"
+pattern = "api.joox.com.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "v.whatsapp.com.sg.aghill.my.id"
+pattern = "v.whatsapp.com.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "api.spotify.com.sg.aghill.my.id"
+pattern = "api.spotify.com.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "api.tiktokcdn.com.sg.aghill.my.id"
+pattern = "api.tiktokcdn.com.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "autodiscover.instagram.com.sg.aghill.my.id"
+pattern = "autodiscover.instagram.com.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "m.instagram.com.sg.aghill.my.id"
+pattern = "m.instagram.com.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "hwvip.iflix.com.sg.aghill.my.id"
+pattern = "hwvip.iflix.com.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "z-p15.www.instagram.com.sg.aghill.my.id"
+pattern = "z-p15.www.instagram.com.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "shopee.co.id.sg.aghill.my.id"
+pattern = "shopee.co.id.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "ava.game.naver.com.sg.aghill.my.id"
+pattern = "ava.game.naver.com.sgdo.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "api-gateway-global.viu.com.sg.aghill.my.id"
+pattern = "api-gateway-global.viu.com.sgdo.aghill.my.id"
 custom_domain = true
 
 [vars]
