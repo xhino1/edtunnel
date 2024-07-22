@@ -1,26 +1,26 @@
-name = "trojan" # todo
+name = "id1" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "trojan.flyin.my.id"
+pattern = "id1.flyintech.my.id"
 custom_domain = true
 [[routes]]
-pattern = "ava.game.naver.com.trojan.flyin.my.id"
+pattern = "ava.game.naver.com.id1.flyintech.my.id"
 custom_domain = true
 [[routes]]
-pattern = "autodiscover.instagram.com.trojan.flyin.my.id"
+pattern = "autodiscover.instagram.com.id1.flyintech.my.id"
 custom_domain = true
 [[routes]]
-pattern = "live.vuclip.com.trojan.flyin.my.id"
+pattern = "live.vuclip.com.id1.flyintech.my.id"
 custom_domain = true
 [[routes]]
-pattern = "updates.netflix.com.trojan.flyin.my.id"
+pattern = "updates.netflix.com.id1.flyintech.my.id"
 custom_domain = true
 [[routes]]
-pattern = "akamai.vuclip.com.trojan.flyin.my.id"
+pattern = "akamai.vuclip.com.id1.flyintech.my.id"
 custom_domain = true
 
 [vars]
