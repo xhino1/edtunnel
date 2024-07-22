@@ -1,4 +1,4 @@
-name = "id1" # todo
+ininame = "id1" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
@@ -27,6 +27,9 @@ pattern = "help.viu.com.id1.flyintech.my.id"
 custom_domain = true
 [[routes]]
 pattern = "m.youtube.com.id1.flyintech.my.id"
+custom_domain = true
+[[routes]]
+pattern = "investors.spotify.com.id1.flyintech.my.id"
 custom_domain = true
 
 [vars]
