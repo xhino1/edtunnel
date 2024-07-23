@@ -1,4 +1,4 @@
-name = "digital_ocean" # todo
+name = "alibaba" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
@@ -15,4 +15,4 @@ routes = [
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
 # API_HOST = "api.v2board.com"
-UUID = "0e603af1-97e9-42ee-936c-d4a9dcd91811"
+UUID = "65a010d7-e7b9-48c0-a9d9-c41f13c0fee7"
