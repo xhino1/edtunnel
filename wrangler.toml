@@ -1,11 +1,11 @@
-name = "amazone_cloud" # todo
+name = "digital_ocean" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 routes = [
-	{ pattern = "aws.heryanavip.xyz", custom_domain = true }
+	{ pattern = "sg1.heryanavip.xyz", custom_domain = true }
 ]
 
 [vars]
@@ -15,4 +15,4 @@ routes = [
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
 # API_HOST = "api.v2board.com"
-UUID = "bea435bb-fb8d-4979-a6b4-474c33cd2542"
+UUID = "37ceca85-eec9-43e8-a721-248e1fe611b6"
