@@ -1,11 +1,11 @@
-name = "alibaba_cloud" # todo
+name = "amazone_cloud" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 routes = [
-	{ pattern = "ac.heryanavip.xyz", custom_domain = true }
+	{ pattern = "aws.heryanavip.xyz", custom_domain = true }
 ]
 
 [vars]
@@ -15,4 +15,4 @@ routes = [
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
 # API_HOST = "api.v2board.com"
-UUID = "65a010d7-e7b9-48c0-a9d9-c41f13c0fee7"
+UUID = "bea435bb-fb8d-4979-a6b4-474c33cd2542"
