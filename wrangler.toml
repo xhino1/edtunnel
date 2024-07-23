@@ -5,7 +5,7 @@ name = "alibaba" # todo
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 routes = [
-	{ pattern = "do.heryanavip.xyz", custom_domain = true }
+	{ pattern = "al.heryanavip.xyz", custom_domain = true }
 ]
 
 [vars]
