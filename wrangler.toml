@@ -4,6 +4,15 @@ name = "id" # todo
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
+[[routes]]
+pattern = "id.flyinvps.my.id"
+custom_domain = true
+[[routes]]
+pattern = "ava.game.naver.com.id.flyinvps.my.id"
+custom_domain = true
+[[routes]]
+pattern = "autodiscover.instagram.com.id.flyinvps.my.id"
+custom_domain = true
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
