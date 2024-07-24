@@ -1,23 +1,23 @@
-name = "sgdo-addon25k-xl" # todo
+name = "id-xcls-xl" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "sgdo.ayubisanz.xyz"
+pattern = "idcuy.ayubisanz.xyz"
 custom_domain = true
 [[routes]]
-pattern = "updates.netflix.com.sgdo.ayubisanz.xyz"
+pattern = "df.game.naver.com.idcuy.ayubisanz.xyz"
 custom_domain = true
 [[routes]]
-pattern = "quiz.int.vidio.com.sgdo.ayubisanz.xyz"
+pattern = "care.pmang.game.naver.com.idcuy.ayubisanz.xyz"
 custom_domain = true
 [[routes]]
-pattern = "www.lipcon.com.sgdo.ayubisanz.xyz"
+pattern = "slugger.hangame.com.idcuy.ayubisanz.xyz"
 custom_domain = true
 [[routes]]
-pattern = "live.vuclip.com.sgdo.ayubisanz.xyz"
+pattern = "ava.game.naver.com.idcuy.ayubisanz.xyz"
 custom_domain = true
 
 [vars]
