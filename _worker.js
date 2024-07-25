@@ -699,40 +699,26 @@ const ed = 'RUR0dW5uZWw=';
  * @returns {string}
  */
 function getวเลสConfig(userIDs, hostName) {
-	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2Fvless-akbrr#${hostName}`;
-	const commonUrlPart1 = `:80?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2Fvless-akbrr#${hostName}`;
-	const hashSeparator = "##########################";
-
+	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=/vless-akbar#${hostName}`;
+	const commonUrlPart1 = `:80?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=/vless-akbar#${hostName}`;
+	
 	// Split the userIDs into an array
 	const userIDArray = userIDs.split(",");
 
 	// Prepare output string for each userID
-	const output = userIDArray.map((userID) => {
+	const output1 = userIDArray.map((userID) => {
 		const วเลสMain = atob(pt) + '://' + userID + atob(at) + hostName + commonUrlPart;
+		return `<br /><h5>Vless443</h5>--------------\n
+${วเลสMain}\n
+<button class="border border-3 border-success rounded-4 fw-bold" style="width: 180px; height: 30px;" onclick='copyToClipboard("${วเลสMain}")'><i>Copy Vless 443</i></button>
+<br />`;
+	}).join('\n');
+	const output2 = userIDArray.map((userID) => {
 		const วเลสSec = atob(pt) + '://' + userID + atob(at) + hostName + commonUrlPart1;
-		return `
-<body>
-<pre><center>=====================================
-<b>VLESS ACCOUNT INFORMATION</b>
-=====================================</center>
-» Domain      : ${hostName}
-» User ID     : ${userID}
-» Port TLS    : 443
-» Port NTLS   : 80
-» Security    : auto
-» Network     : (WS)
-» Path        : /vless-akbrr
-=====================================
-<b>           🇮🇩 VLESS TLS 🇮🇩</b>
-=====================================
-${วเลสMain}
- <button class="btn btn-primary" onclick="copyToClipboard('${วเลสMain}')">Click to Copy Vless TLS</button>
-=====================================
-<b>         🇮🇩 VLESS NONE TLS 🇮🇩</b>
-=====================================
-${วเลสSec}
- <button class="btn btn-primary" onclick="copyToClipboard('${วเลสSec}')">Click to Copy Vless NTLS</button>
-=====================================`;
+		return `<br /><h5>Vless80</h5>----------------\n
+${วเลสSec}\n
+<button class="border border-3 border-success rounded-4 fw-bold" style="width: 180px; height: 30px;" onclick='copyToClipboard("${วเลสSec}")'><i>Copy Vless 80</i></button>
+<br />`;
 	}).join('\n');
 	// Prepare header string
 	const header = `
@@ -893,5 +879,5 @@ function สร้างวเลสSub(ไอดีผู้ใช้_เส้
 }
 
 const cn_hostnames = [
-	'akbartunnel.biz.id',
+	't.me/ybbar',
 ];
