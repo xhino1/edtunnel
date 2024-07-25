@@ -726,7 +726,7 @@ function getวเลสConfig(userIDs, hostName) {
 <b>           🇮🇩 VLESS TLS 🇮🇩</b>
 =====================================
 ${วเลสMain}
- <button class="btn btn-primary" onclick="copyToClipboard('${วเลสSec}')">Click to Copy Vless TLS</button>
+ <button class="btn btn-primary" onclick="copyToClipboard('${วเลสMain}')">Click to Copy Vless TLS</button>
 =====================================
 <b>         🇮🇩 VLESS NONE TLS 🇮🇩</b>
 =====================================
@@ -742,20 +742,12 @@ ${วเลสSec}
 
 <body>
 <center>
-<img src="https://user-images.githubusercontent.com/96859296/185836662-688203b5-a267-4878-99d5-5ad048345d1d.jpg" style="width: 50%"><br><font color="green"><h1><b>AKBAR PROJECT</br></br></b></h1></font><h3>Jangan Berhenti Berbuat Baik</h3><p class="kata1"><b><i>Harimau mati meninggalkan belang, gajah mati meninggalkan gading, orang mati meninggalkan nama...</b></i></p><p class="kata2"></p><p class="kata3"></p><marquee><b style="color: white;font-size: 18px">.:: </b> <b style="color: Red;font-size:30px">FREE WORKER VLESS CLOUDFLARE</b> <b style="color: white;font-size: 18px"> ::.</b>
+<br><font color="green"><h1><b>AKBAR PROJECT</br></br></b></h1></font><marquee><b style="color: white;font-size: 18px">.:: </b> <b style="color: Red;font-size:30px">FREE AKUN VLESS CLOUDFLARE</b> <b style="color: white;font-size: 18px"> ::.</b>
 </marquee>
 </center>
 </body>
 </html> 
-<center>
-<a href='//${hostName}/sub/akbrr' target='_blank'>BASE64</a>
-<a href='clash://install-config?url=${encodeURIComponent(`https://${hostName}/sub/akbrr?format=clash`)}}' target='_blank'>Clash for Windows </a>
-<a href='${clash_link}' target='_blank'>Clash </a>
-<a href='${subbestip}' target='_blank'>Best IP</a>
-<a href='clash://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>Clash </a>
-<a href='sing-box://import-remote-profile?url=${encodeURIComponent(subbestip)}' target='_blank'>Singbox </a>
-<a href='sn://subscription?url=${encodeURIComponent(subbestip)}' target='_blank'>Nekobox </a>
-<a href='v2rayng://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>v2rayNG </a></p>`;
+
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
