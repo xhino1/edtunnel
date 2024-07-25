@@ -725,10 +725,11 @@ ${วเลสSec}
 	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 	// Prepare header string
 	const header = `
-<b style='font-size: 15px;'>FREE PREMIUM VLESS </b>
+<div style="text-align: center;">V2RAY PREMIUM VLESS</div>
+<b style='font-size: 15px;'>PREMIUM VLESS </b>
 <a href='https://youtube.com/@aqsabianalwari' target='_blank'>SURYA F_ALW - https://youtube.com/@aqsabianalwari</a>
-<iframe src='https://bnp.jambiprov.go.id/wp-content/uploads/2023/02/youtube-ads.png' frameborder='0' scrolling='0' width='170' height='30' title='GitHub'></iframe>
 <a href='v2rayng://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>ALWAYS ON V2RAY</a></p>`;
+<iframe src='https://bnp.jambiprov.go.id/wp-content/uploads/2023/02/youtube-ads.png' frameborder='0' scrolling='0' width='170' height='30' title='GitHub'></iframe>
 
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
@@ -788,7 +789,7 @@ ${วเลสSec}
 	  }
 
 	  pre {
-		background-color: #F5F5DC;
+		background-color: #E0FFFF;
 		border-color: #000000;
 	  }
 	}
