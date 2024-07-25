@@ -755,7 +755,7 @@ ${วเลสSec}
 	body {
 	  font-family: Arial, sans-serif;
 	  background-color: #5F9EA0;
-	  color: #F0FFFF;
+	  color: #333;
 	  padding: 10px;
 	}
 
@@ -779,7 +779,7 @@ ${วเลสSec}
 	/* Dark mode */
 	@media (prefers-color-scheme: dark) {
 	  body {
-		background-color: #333;
+		background-color: #5F9EA0;
 		color: #f0f0f0;
 	  }
 
