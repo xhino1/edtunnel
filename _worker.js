@@ -728,7 +728,7 @@ ${วเลสSec}
 <b style='font-size: 15px;'>FREE PREMIUM VLESS </b>
 <a href='https://youtube.com/@aqsabianalwari' target='_blank'>SURYA F_ALW - https://youtube.com/@aqsabianalwari</a>
 <iframe src='https://bnp.jambiprov.go.id/wp-content/uploads/2023/02/youtube-ads.png' frameborder='0' scrolling='0' width='170' height='30' title='GitHub'></iframe>
-<a href='v2rayng://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>ALWAYS ON</a></p>`;
+<a href='v2rayng://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>ALWAYS ON V2RAY</a></p>`;
 
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
@@ -771,7 +771,7 @@ ${วเลสSec}
 	pre {
 	  white-space: pre-wrap;
 	  word-wrap: break-word;
-	  background-color: #fff;
+	  background-color: #F5F5DC;
 	  border: 1px solid #ddd;
 	  padding: 15px;
 	  margin: 10px 0;
