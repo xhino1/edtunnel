@@ -700,7 +700,7 @@ const ed = 'RUR0dW5uZWw=';
  */
 function getวเลสConfig(userIDs, hostName) {
 	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2Fsurya_falw#${hostName}`;
-	const hashSeparator = "÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷";
+	const hashSeparator = "€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€";
 
 	// Split the userIDs into an array
 	const userIDArray = userIDs.split(",");
@@ -710,15 +710,15 @@ function getวเลสConfig(userIDs, hostName) {
 		const วเลสMain = atob(pt) + '://' + userID + atob(at) + hostName + commonUrlPart;
 		const วเลสSec = atob(pt) + '://' + userID + atob(at) + พร็อกซีไอพี + commonUrlPart;
 		return `<h2>UUID: ${userID}</h2>${hashSeparator}\nv2ray default ip
-°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
 ${วเลสMain}
 <button onclick='copyToClipboard("${วเลสMain}")'><i class="fa fa-clipboard"></i> Copy วเลสMain</button>
-°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
 v2ray with bestip
-°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
 ${วเลสSec}
 <button onclick='copyToClipboard("${วเลสSec}")'><i class="fa fa-clipboard"></i> Copy วเลสSec</button>
-°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°`;
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••`;
 	}).join('\n');
 	const sublink = `https://${hostName}/sub/${userIDArray[0]}?format=clash`
 	const subbestip = `https://${hostName}/bestip/${userIDArray[0]}`;
@@ -754,8 +754,8 @@ ${วเลสSec}
 	<style>
 	body {
 	  font-family: Arial, sans-serif;
-	  background-color: #F0FFFF;
-	  color: #333;
+	  background-color: #5F9EA0;
+	  color: #F0FFFF;
 	  padding: 10px;
 	}
 
