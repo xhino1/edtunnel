@@ -43,6 +43,9 @@ custom_domain = true
 [[routes]]
 pattern = "cos.files.joox.com.id1.flyintech.my.id"
 custom_domain = true
+[[routes]]
+pattern = "live.viu.com.id1.flyintech.my.id"
+custom_domain = true
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
