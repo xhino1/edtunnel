@@ -733,55 +733,7 @@ ${วเลสMain}
 ${วเลสSec}
  <button class="btn btn-primary" onclick="copyToClipboard('${วเลสSec}')">Click to Copy Vless NTLS</button>
 =====================================`;
-	})
-	// Prepare header string
-	const header = `
-
-<body>
-<center>
-<br><font color="green"><h1><b>AKBAR PROJECT</br></br></b></h1></font><h3>Jangan Berhenti Berbuat Baik</h3><p class="kata1"><b><i>Harimau mati meninggalkan belang, gajah mati meninggalkan gading, orang mati meninggalkan nama...</b></i></p><p class="kata2"></p><p class="kata3"></p><marquee><b style="color: white;font-size: 18px">.:: </b> <b style="color: Red;font-size:30px">FREE AKUN VLESS CLOUDFLARE</b> <b style="color: white;font-size: 18px"> ::.</b>
-</marquee>
-</center>
-</body>
-</html> 
-
-	// HTML Head with CSS and FontAwesome library
-	const htmlHead = `
-  <head>
-	<title>AKBAR PROJECT</title>
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
-	<meta property='og:site_name' content='AKBAR: วเลส configuration' />
-	<meta property='og:type' content='website' />
-	<meta property='og:title' content='AKBAR - Bismillah' />
-	<meta property='og:description' content='Use cloudflare pages and worker severless to implement วเลส protocol' />
-	<meta property='og:url' content='https://${hostName}/' />
-	<meta property='og:image' content='https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${encodeURIComponent(`วเลส://${userIDs.split(",")[0]}@${hostName}${commonUrlPart}`)}' />
-	<meta name='twitter:card' content='summary_large_image' />
-	<meta name='twitter:title' content='AKBAR - วเลส configuration and subscribe output' />
-	<meta name='twitter:description' content='Use cloudflare pages and worker severless to implement วเลส protocol' />
-	<meta name='twitter:url' content='https://${hostName}/' />
-	<meta property='og:image:width' content='1500' />
-	<meta property='og:image:height' content='1500' />
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-<style>
-
-.limited-width {
-
-    max-width: 10px;
-
-    overflow: auto;
-
-    word-wrap: break-word;
-
-}
+	
 
 </style>
 
