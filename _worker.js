@@ -725,9 +725,9 @@ ${วเลสSec}
 	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 	// Prepare header string
 	const header = `
-<b style="text-align: center;">V2RAY PREMIUM VLESS</b>
-<b style='font-size: 15px;'>PREMIUM VLESS </b>
+<b style="center;">V2RAY PREMIUM VLESS</b>
 <a href='https://youtube.com/@aqsabianalwari' target='_blank'>SURYA F_ALW - https://youtube.com/@aqsabianalwari</a>
+<b </b>
 <a href='v2rayng://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>ALWAYS ON V2RAY</a></p>`;
 
 	// HTML Head with CSS and FontAwesome library
@@ -771,7 +771,7 @@ ${วเลสSec}
 	pre {
 	  white-space: pre-wrap;
 	  word-wrap: break-word;
-	  background-color: #F5F5DC;
+	  background-color: #E0FFFF;
 	  border: 1px solid #ddd;
 	  padding: 15px;
 	  margin: 10px 0;
@@ -784,7 +784,7 @@ ${วเลสSec}
 	  }
 
 	  a {
-		color: #9db4ff;
+		color: #E0FFFF;
 	  }
 
 	  pre {
