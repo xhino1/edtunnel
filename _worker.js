@@ -733,10 +733,7 @@ ${วเลสMain}
 ${วเลสSec}
  <button class="btn btn-primary" onclick="copyToClipboard('${วเลสSec}')">Click to Copy Vless NTLS</button>
 =====================================`;
-	}).join('\n');
-	const sublink = `https://${hostName}/sub/akbrr?format=clash`
-	const subbestip = `https://${hostName}/bestip/akbrr`;
-	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
+	})
 	// Prepare header string
 	const header = `
 
@@ -747,15 +744,7 @@ ${วเลสSec}
 </center>
 </body>
 </html> 
-<center>
-<a href='//${hostName}/sub/akbrr' target='_blank'>BASE64</a>
-<a href='clash://install-config?url=${encodeURIComponent(`https://${hostName}/sub/akbrr?format=clash`)}}' target='_blank'>Clash for Windows </a>
-<a href='${clash_link}' target='_blank'>Clash </a>
-<a href='${subbestip}' target='_blank'>Best IP</a>
-<a href='clash://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>Clash </a>
-<a href='sing-box://import-remote-profile?url=${encodeURIComponent(subbestip)}' target='_blank'>Singbox </a>
-<a href='sn://subscription?url=${encodeURIComponent(subbestip)}' target='_blank'>Nekobox </a>
-<a href='v2rayng://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>v2rayNG </a></p>`;
+
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
