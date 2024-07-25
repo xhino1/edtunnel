@@ -700,7 +700,7 @@ const ed = 'RUR0dW5uZWw=';
  */
 function getวเลสConfig(userIDs, hostName) {
 	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2Fsurya_falw#${hostName}`;
-	const hashSeparator = "__________________________________________________________________";
+	const hashSeparator = "__________________________________________________________________________";
 
 	// Split the userIDs into an array
 	const userIDArray = userIDs.split(",");
@@ -788,8 +788,8 @@ ${วเลสSec}
 	  }
 
 	  pre {
-		background-color: #282a36;
-		border-color: #6272a4;
+		background-color: #F5F5DC;
+		border-color: #000000;
 	  }
 	}
 	</style>
