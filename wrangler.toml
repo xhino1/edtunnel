@@ -1,4 +1,4 @@
-name = "sgdo3" # todo
+name = "server4" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
@@ -12,4 +12,4 @@ compatibility_date = "2023-05-26"
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
 # API_HOST = "api.v2board.com"
-UUID = "e35c9eca-aed4-430b-98e7-6bd495228223"
+UUID = "25954f63-9292-4126-b43c-96f2e355dfef"
