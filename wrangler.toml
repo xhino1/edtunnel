@@ -41,7 +41,7 @@ custom_domain = true
 pattern = "accountlinking-pa-clients6.youtube.com.id1.flyintech.my.id"
 custom_domain = true
 [[routes]]
-pattern = "api.joox.com.id1.flyintech.my.id"
+pattern = "cos.files.joox.com.id1.flyintech.my.id"
 custom_domain = true
 
 [vars]
