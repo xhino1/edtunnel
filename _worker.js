@@ -741,15 +741,7 @@ ${วเลสSec}
 	const header = `
 
 
-<center>
-<a href='//${hostName}/sub/geo' target='_blank'>BASE64</a>
-<a href='clash://install-config?url=${encodeURIComponent(`https://${hostName}/sub/geo?format=clash`)}}' target='_blank'>Clash for Windows </a>
-<a href='${clash_link}' target='_blank'>Clash </a>
-<a href='${subbestip}' target='_blank'>Best IP</a>
-<a href='clash://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>Clash </a>
-<a href='sing-box://import-remote-profile?url=${encodeURIComponent(subbestip)}' target='_blank'>Singbox </a>
-<a href='sn://subscription?url=${encodeURIComponent(subbestip)}' target='_blank'>Nekobox </a>
-<a href='v2rayng://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>v2rayNG </a></p>`
+
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
