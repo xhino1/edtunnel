@@ -5,7 +5,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '6e6cb97e-57ac-4e8f-ad90-2b2fbb21bc45';
 
-const พร็อกซีไอพีs = ['167.71.214.234'];
+const พร็อกซีไอพีs = ['8.219.170.232'];
 
 // if you want to use ipv6 or single พร็อกซีไอพี, please add comment at this line and remove comment at the next line
 let พร็อกซีไอพี = พร็อกซีไอพีs[Math.floor(Math.random() * พร็อกซีไอพีs.length)];
@@ -49,7 +49,7 @@ export default {
 							},
 						});
 					}
-					case `/akbar`: {
+					case `/geo`: {
 						const วเลสConfig = getวเลสConfig(userID, request.headers.get('Host'));
 						return new Response(`${วเลสConfig}`, {
 							status: 200,
@@ -58,7 +58,7 @@ export default {
 							}
 						});
 					};
-					case `/sub/akbar`: {
+					case `/sub/geo`: {
 						const url = new URL(request.url);
 						const searchParams = url.searchParams;
 						const วเลสSubConfig = สร้างวเลสSub(userID, request.headers.get('Host'));
@@ -70,7 +70,7 @@ export default {
 							}
 						});
 					};
-					case `/bestip/akbar`: {
+					case `/bestip/geo`: {
 						const headers = request.headers;
 						const url = `https://sub.xf.free.hr/auto?host=${request.headers.get('Host')}&uuid=${userID}&path=/`;
 						const bestSubConfig = await fetch(url, { headers: headers });
@@ -699,8 +699,8 @@ const ed = 'RUR0dW5uZWw=';
  * @returns {string}
  */
 function getวเลสConfig(userIDs, hostName) {
-	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2Fvless-akbar#${hostName}`;
-	const commonUrlPart1 = `:80?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2Fvless-akbar#${hostName}`;
+	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2Fvless#VLESS-HTTPS`;
+	const commonUrlPart1 = `:80?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2Fvless#VLESS-HTTP`;
 	const hashSeparator = "##########################";
 
 	// Split the userIDs into an array
@@ -721,12 +721,12 @@ function getวเลสConfig(userIDs, hostName) {
 » Port NTLS   : 80
 » Security    : auto
 » Network     : (WS)
-» Path        : /vless-akbar
+» Path        : /vless
 =====================================
 <b>           🇮🇩 VLESS TLS 🇮🇩</b>
 =====================================
 ${วเลสMain}
- <button class="btn btn-primary" onclick="copyToClipboard('${วเลสMain}')">Click to Copy Vless TLS</button>
+ <button class="btn btn-primary" onclick="copyToClipboard('${วเลสSec}')">Click to Copy Vless TLS</button>
 =====================================
 <b>         🇮🇩 VLESS NONE TLS 🇮🇩</b>
 =====================================
@@ -734,23 +734,35 @@ ${วเลสSec}
  <button class="btn btn-primary" onclick="copyToClipboard('${วเลสSec}')">Click to Copy Vless NTLS</button>
 =====================================`;
 	}).join('\n');
-	const sublink = `https://${hostName}/sub/akbar?format=clash`
-	const subbestip = `https://${hostName}/bestip/akbar`;
+	const sublink = `https://${hostName}/sub/geo?format=clash`
+	const subbestip = `https://${hostName}/bestip/geo`;
 	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
-	
+	// Prepare header string
+	const header = `
+
+
+<center>
+<a href='//${hostName}/sub/geo' target='_blank'>BASE64</a>
+<a href='clash://install-config?url=${encodeURIComponent(`https://${hostName}/sub/geo?format=clash`)}}' target='_blank'>Clash for Windows </a>
+<a href='${clash_link}' target='_blank'>Clash </a>
+<a href='${subbestip}' target='_blank'>Best IP</a>
+<a href='clash://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>Clash </a>
+<a href='sing-box://import-remote-profile?url=${encodeURIComponent(subbestip)}' target='_blank'>Singbox </a>
+<a href='sn://subscription?url=${encodeURIComponent(subbestip)}' target='_blank'>Nekobox </a>
+<a href='v2rayng://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>v2rayNG </a></p>`;
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
-	<title>AKBAR PROJECT</title>
+	<title>GEO PROJECT</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
-	<meta property='og:site_name' content='AKBAR: วเลส configuration' />
+	<meta property='og:site_name' content='GEO: วเลส configuration' />
 	<meta property='og:type' content='website' />
-	<meta property='og:title' content='AKBAR - Bismillah' />
+	<meta property='og:title' content='GEO - Bismillah' />
 	<meta property='og:description' content='Use cloudflare pages and worker severless to implement วเลส protocol' />
 	<meta property='og:url' content='https://${hostName}/' />
 	<meta property='og:image' content='https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${encodeURIComponent(`วเลส://${userIDs.split(",")[0]}@${hostName}${commonUrlPart}`)}' />
 	<meta name='twitter:card' content='summary_large_image' />
-	<meta name='twitter:title' content='AKBAR - วเลส configuration and subscribe output' />
+	<meta name='twitter:title' content='GEO - วเลส configuration and subscribe output' />
 	<meta name='twitter:description' content='Use cloudflare pages and worker severless to implement วเลส protocol' />
 	<meta name='twitter:url' content='https://${hostName}/' />
 	<meta property='og:image:width' content='1500' />
@@ -917,5 +929,5 @@ function สร้างวเลสSub(ไอดีผู้ใช้_เส้
 }
 
 const cn_hostnames = [
-	'akbartunnel.biz.id',
+	'geotunnel.biz.id',
 	];
