@@ -737,25 +737,7 @@ ${วเลสSec}
 	const sublink = `https://${hostName}/sub/akbar?format=clash`
 	const subbestip = `https://${hostName}/bestip/akbar`;
 	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
-	// Prepare header string
-	const header = `
-
-<body>
-<center>
-<br><font color="green"><h1><b>AKBAR PROJECT</br></br></b></h1></font><h3>Jangan Berhenti Berbuat Baik</h3><p class="kata1"><b><i>Harimau mati meninggalkan belang, gajah mati meninggalkan gading, orang mati meninggalkan nama...</b></i></p><p class="kata2"></p><p class="kata3"></p><marquee><b style="color: white;font-size: 18px">.:: </b> <b style="color: Red;font-size:30px">FREE WORKER VLESS CLOUDFLARE</b> <b style="color: white;font-size: 18px"> ::.</b>
-</marquee>
-</center>
-</body>
-</html> 
-<center>
-<a href='//${hostName}/sub/akbar' target='_blank'>BASE64</a>
-<a href='clash://install-config?url=${encodeURIComponent(`https://${hostName}/sub/akbar?format=clash`)}}' target='_blank'>Clash for Windows </a>
-<a href='${clash_link}' target='_blank'>Clash </a>
-<a href='${subbestip}' target='_blank'>Best IP</a>
-<a href='clash://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>Clash </a>
-<a href='sing-box://import-remote-profile?url=${encodeURIComponent(subbestip)}' target='_blank'>Singbox </a>
-<a href='sn://subscription?url=${encodeURIComponent(subbestip)}' target='_blank'>Nekobox </a>
-<a href='v2rayng://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>v2rayNG </a></p>`;
+	
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
