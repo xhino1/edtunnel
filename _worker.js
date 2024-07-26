@@ -699,8 +699,8 @@ const ed = 'RUR0dW5uZWw=';
  * @returns {string}
  */
 function getวเลสConfig(userIDs, hostName) {
-	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2Fvless#VLESS-HTTPS`;
-	const commonUrlPart1 = `:80?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2Fvless#VLESS-HTTP`;
+	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2Fvless-akbar#VLESS-HTTPS`;
+	const commonUrlPart1 = `:80?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2Fvless-akbar#VLESS-HTTP`;
 	const hashSeparator = "##########################";
 
 	// Split the userIDs into an array
@@ -721,12 +721,12 @@ function getวเลสConfig(userIDs, hostName) {
 » Port NTLS   : 80
 » Security    : auto
 » Network     : (WS)
-» Path        : /vless
+» Path        : /vless-akbar
 =====================================
 <b>           🇮🇩 VLESS TLS 🇮🇩</b>
 =====================================
 ${วเลสMain}
- <button class="btn btn-primary" onclick="copyToClipboard('${วเลสSec}')">Click to Copy Vless TLS</button>
+ <button class="btn btn-primary" onclick="copyToClipboard('${วเลสMain}')">Click to Copy Vless TLS</button>
 =====================================
 <b>         🇮🇩 VLESS NONE TLS 🇮🇩</b>
 =====================================
