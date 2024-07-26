@@ -49,7 +49,7 @@ export default {
 							},
 						});
 					}
-					case `/geo`: {
+					case `/akbar`: {
 						const วเลสConfig = getวเลสConfig(userID, request.headers.get('Host'));
 						return new Response(`${วเลสConfig}`, {
 							status: 200,
@@ -58,7 +58,7 @@ export default {
 							}
 						});
 					};
-					case `/sub/geo`: {
+					case `/sub/akbar`: {
 						const url = new URL(request.url);
 						const searchParams = url.searchParams;
 						const วเลสSubConfig = สร้างวเลสSub(userID, request.headers.get('Host'));
@@ -70,7 +70,7 @@ export default {
 							}
 						});
 					};
-					case `/bestip/geo`: {
+					case `/bestip/akbar`: {
 						const headers = request.headers;
 						const url = `https://sub.xf.free.hr/auto?host=${request.headers.get('Host')}&uuid=${userID}&path=/`;
 						const bestSubConfig = await fetch(url, { headers: headers });
@@ -734,8 +734,8 @@ ${วเลสSec}
  <button class="btn btn-primary" onclick="copyToClipboard('${วเลสSec}')">Click to Copy Vless NTLS</button>
 =====================================`;
 	}).join('\n');
-	const sublink = `https://${hostName}/sub/geo?format=clash`
-	const subbestip = `https://${hostName}/bestip/geo`;
+	const sublink = `https://${hostName}/sub/akbar?format=clash`
+	const subbestip = `https://${hostName}/bestip/akbar`;
 	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 	// Prepare header string
 	const header = `
@@ -749,7 +749,7 @@ ${วเลสSec}
 <a href='clash://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>Clash </a>
 <a href='sing-box://import-remote-profile?url=${encodeURIComponent(subbestip)}' target='_blank'>Singbox </a>
 <a href='sn://subscription?url=${encodeURIComponent(subbestip)}' target='_blank'>Nekobox </a>
-<a href='v2rayng://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>v2rayNG </a></p>`;
+<a href='v2rayng://install-config?url=${encodeURIComponent(subbestip)}' target='_blank'>v2rayNG </a></p>`
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
