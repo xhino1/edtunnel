@@ -741,7 +741,7 @@ ${วเลสSec}
 	const header = `
 
 
-
+`;
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
@@ -921,5 +921,5 @@ function สร้างวเลสSub(ไอดีผู้ใช้_เส้
 }
 
 const cn_hostnames = [
-	'geotunnel.biz.id',
+	'alibabak.brobrogore.filegear-sg.me',
 	];
