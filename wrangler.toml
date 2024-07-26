@@ -29,22 +29,10 @@ custom_domain = true
 pattern = "shopee.co.id.id1.flyintech.my.id"
 custom_domain = true
 [[routes]]
-pattern = "help.viu.com.id1.flyintech.my.id"
+pattern = "hq.viu.com.id1.flyintech.my.id"
 custom_domain = true
 [[routes]]
 pattern = "app-stg.gopay.co.id.id1.flyintech.my.id"
-custom_domain = true
-[[routes]]
-pattern = "graph.facebook.com.id1.flyintech.my.id"
-custom_domain = true
-[[routes]]
-pattern = "accountlinking-pa-clients6.youtube.com.id1.flyintech.my.id"
-custom_domain = true
-[[routes]]
-pattern = "cos.files.joox.com.id1.flyintech.my.id"
-custom_domain = true
-[[routes]]
-pattern = "live.viu.com.id1.flyintech.my.id"
 custom_domain = true
 
 [vars]
