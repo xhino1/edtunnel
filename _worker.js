@@ -745,16 +745,16 @@ ${วเลสSec}
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
-	<title>GEO PROJECT</title>
+	<title>AKBAR PROJECT</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
-	<meta property='og:site_name' content='GEO: วเลส configuration' />
+	<meta property='og:site_name' content='AKBAR: วเลส configuration' />
 	<meta property='og:type' content='website' />
-	<meta property='og:title' content='GEO - Bismillah' />
+	<meta property='og:title' content='AKBAR - Bismillah' />
 	<meta property='og:description' content='Use cloudflare pages and worker severless to implement วเลส protocol' />
 	<meta property='og:url' content='https://${hostName}/' />
 	<meta property='og:image' content='https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${encodeURIComponent(`วเลส://${userIDs.split(",")[0]}@${hostName}${commonUrlPart}`)}' />
 	<meta name='twitter:card' content='summary_large_image' />
-	<meta name='twitter:title' content='GEO - วเลส configuration and subscribe output' />
+	<meta name='twitter:title' content='AKBAR - วเลส configuration and subscribe output' />
 	<meta name='twitter:description' content='Use cloudflare pages and worker severless to implement วเลส protocol' />
 	<meta name='twitter:url' content='https://${hostName}/' />
 	<meta property='og:image:width' content='1500' />
